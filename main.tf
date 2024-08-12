@@ -17,7 +17,7 @@ provider "aws" {
   default_tags { #coloca essa tag em todos os recursos criados por esse código
     tags = {
       owner      = "AlineTeles"
-        managed-by = "terraform"
+      managed-by = "terraform"
     }
   }
 }
